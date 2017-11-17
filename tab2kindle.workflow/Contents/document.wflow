@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>409.2</string>
+	<key>AMApplicationVersion</key>
+	<string>2.5</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>fileNames</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Specified Finder Items.action</string>
+				<key>ActionName</key>
+				<string>Get Specified Finder Items</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>fileNames</key>
+					<array/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.SpecifiedFiles</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>SpecifiedFilesAction</string>
+				<key>InputUUID</key>
+				<string>8E22A8EC-988B-47DB-9F58-C835B8E177D8</string>
+				<key>Keywords</key>
+				<array>
+					<string>File</string>
+					<string>Choose</string>
+					<string>Find</string>
+					<string>Get</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>F86C5FCE-DF94-4014-8F78-D1AE142FEBDC</string>
+				<key>UUID</key>
+				<string>9E00098A-90B2-4368-A13A-AC02436C38FC</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<array/>
+						<key>name</key>
+						<string>fileNames</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>328.000000:308.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>output=~/Desktop/songbook.html
+
+cat &gt; $output &lt;&lt;EOL
+&lt;!DOCTYPE html&gt;                                                                                     
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html;charset=utf-8"&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;style&gt;
+body { font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace !important; }
+p { font-size:.825em; text-indent: 1em; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace !important; }
+h1 { margin-top: 3em; margin-bottom: 1em; text-align: center; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace !important; }
+h2 { margin-bottom: 1em; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace !important; }
+h2#author { text-align: center; font-size: 1em; }
+h2.chapter { page-break-before: always; margin-top: 3em; text-align: left; }
+h3 { margin-top: 1em; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace !important; }
+.noindent { text-indent: 0; }
+.smallfont { font-size:.675em; }
+.stoppagebreak { page-break-inside:avoid; }    
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Tabs &amp;amp; Chords&lt;/h1&gt;
+&lt;h2 id="author"&gt;Ebook formatting by Ilya Yakubovich (ilyayakubovich.com) and Ben Fox (pnwanderer.com)&lt;/h2&gt;
+&lt;mbp:pagebreak /&gt;
+
+&lt;a id="TOC" /&gt;&lt;h2&gt;Table of contents&lt;/h2&gt;
+EOL
+
+
+counter=0
+for f in "$@"
+do
+    echo "&lt;a href=\"#song$counter\"&gt;`echo $(basename "$f") | cut -d\. -f1`&lt;/a&gt;&lt;br /&gt;" &gt;&gt; $output
+    ((counter++))
+done
+
+counter=0
+for f in "$@"
+do
+    echo "&lt;a name=\"song$counter\"&gt;" &gt;&gt; $output
+    echo "&lt;h2 class=\"chapter\"&gt;`echo $(basename "$f") | cut -d\. -f1`&lt;/h2&gt;" &gt;&gt; $output                                                                  
+    echo "&lt;p class='noindent'&gt;" &gt;&gt; $output
+    sed 's/ /\&amp;nbsp;/g' -f "$f" | sed 's/$/\&lt;br\/\&gt;/g' &gt;&gt; $output
+    echo "&lt;/p&gt;&lt;/a&gt;" &gt;&gt; $output
+    ((counter++))
+done
+
+
+cat &gt;&gt; $output &lt;&lt;EOL
+&lt;/body&gt;
+&lt;/html&gt;
+EOL</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>B6D7FA8D-C41F-4ED1-AC0C-B9F99D1999FD</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>F9065B7E-6D8C-4837-9084-91764AB1786F</string>
+				<key>UUID</key>
+				<string>7464E1A7-8058-42C6-965F-65B147D99A26</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>328.000000:543.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>ED0B36A5-F16D-4469-8813-7D99DE0FF703</key>
+		<dict>
+			<key>from</key>
+			<string>9E00098A-90B2-4368-A13A-AC02436C38FC - 9E00098A-90B2-4368-A13A-AC02436C38FC</string>
+			<key>to</key>
+			<string>7464E1A7-8058-42C6-965F-65B147D99A26 - 7464E1A7-8058-42C6-965F-65B147D99A26</string>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>984F706F-E2BB-4E61-95F4-620F85DFBC88</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Text</string>
+			<key>name</key>
+			<string>Text</string>
+			<key>value</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>A24C028B-88C5-4D0B-904B-93E91C89F499</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Storage</string>
+			<key>name</key>
+			<string>Title</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>CD875F7E-204B-4F0B-82A8-935B6F6539CF</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Path</string>
+			<key>name</key>
+			<string>Path</string>
+			<key>value</key>
+			<string>~/Documents/Projects/tabstokindle</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>538319E0-71CD-47BB-937C-E7F9E8698D3F</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.DownloadsFolder</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>1C371474-C714-40D6-9AC4-618BA0261E74</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Path</string>
+			<key>name</key>
+			<string>Path 1</string>
+			<key>value</key>
+			<string>~/Desktop</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>DBB684FD-1890-4AD4-981A-B4363E79DA07</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Text</string>
+			<key>name</key>
+			<string>Image Name</string>
+			<key>value</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>DEC036AC-4010-4E23-B62D-24AE93E0CD6E</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Path</string>
+			<key>name</key>
+			<string>Source Volume</string>
+			<key>value</key>
+			<string>/Volumes/Mac OS X Install DVD</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>CE177814-5A82-4DC7-A5EE-DAE89AC34B9B</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Path</string>
+			<key>name</key>
+			<string>Destination Path</string>
+			<key>value</key>
+			<string>/Library/NetBoot/NetBootSP0</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>B31D28A7-5EF5-48C4-8EAB-AA649FCFAA7F</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Path</string>
+			<key>name</key>
+			<string>Destination Path 1</string>
+			<key>value</key>
+			<string>/Library/NetBoot/NetBootSP0</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>51442290-3F00-4E8D-AD15-BADCF2BE8792</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Text</string>
+			<key>name</key>
+			<string>Text 1</string>
+			<key>value</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>1B674C3D-DD1E-450B-934A-2893BA90065B</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Text</string>
+			<key>name</key>
+			<string>Text 2</string>
+			<key>value</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>F26672CA-6A9A-44B4-AA75-F5C5F733E87D</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Text</string>
+			<key>name</key>
+			<string>filename</string>
+			<key>value</key>
+			<string>/Users/ilya/Documents/Projects/tabstokindle/Time.txt</string>
+		</dict>
+	</array>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>folderActionFolderPath</key>
+		<string>~/Documents/Projects/tabstokindle</string>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.folderAction</string>
+	</dict>
+</dict>
+</plist>
