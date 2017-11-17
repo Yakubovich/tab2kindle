@@ -6,7 +6,7 @@ This is an Automator script, so it only works on a Mac.
 
 ## Instructions
 
-instructions.png
+![Instructions](instructions.png)
 
 1. Download the Automator workflow file document.wflow and open it
 2. Drag your files into the "Get Specified Finder Items" box (or use the Add button)
